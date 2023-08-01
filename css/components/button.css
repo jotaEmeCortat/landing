@@ -1,0 +1,22 @@
+.btn {
+  background-color: #222325;
+  border: 1px solid #222325;
+  border-radius: 6px;
+  box-shadow: #fff -4px 4px 0 0, #222325 -4px 4px 0 1px;
+  color: #fff;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+}
+
+.btn:active {
+  box-shadow: #fff 2px 2px 0 0, #222325 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem;
+  }
+}

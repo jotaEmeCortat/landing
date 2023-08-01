@@ -1,0 +1,12 @@
+.footer-container {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    font-size: 0.75rem;
+  }
+}
